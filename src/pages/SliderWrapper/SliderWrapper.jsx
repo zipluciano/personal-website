@@ -1,7 +1,7 @@
 import { useState, useCallback, createContext } from "react";
 import { webImages } from "../../assets/utils";
 import { Slider, ArrowButton, Content } from "./style";
-import { Background, Contact, Home, Projects, Skills, Summary } from "../index";
+import { Background, Contact, Home, Skills, Summary } from "../index";
 
 export const Context = createContext(null);
 const { leftArrow, rightArrow } = webImages;
@@ -14,7 +14,6 @@ const SliderWrapper = () => {
     <Summary />,
     <Background />,
     <Skills />,
-    <Projects />,
     <Contact />,
   ];
 

@@ -1,9 +1,6 @@
 import styled from "styled-components";
 
 export const Slider = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
-
-  font-family: "Oswald", sans-serif;
   width: 90vw;
   min-height: 90vh;
   position: relative;
@@ -13,6 +10,7 @@ export const Slider = styled.div`
   padding: 4.5vh 9.9vw;
   color: #fff;
   background: #1a1a1a;
+  transition: linear 100ms;
 `;
 
 export const ArrowButton = styled.button`
