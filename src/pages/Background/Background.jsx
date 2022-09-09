@@ -1,6 +1,14 @@
 import React from "react";
 import { background } from "../../utils/constants";
-import { Wrapper, Title, Content, ListFormation, School, Years } from "./style";
+import {
+  Wrapper,
+  Title,
+  Content,
+  ListFormation,
+  Course,
+  School,
+  Years,
+} from "./style";
 
 const Background = () => (
   <Wrapper>
@@ -8,7 +16,7 @@ const Background = () => (
     <Content>
       {background.map(({ course, school, years }) => (
         <ListFormation key={course}>
-          <li>{course}</li>
+          <Course>{course}</Course>
           <School>{school}</School>
           <Years>{years}</Years>
         </ListFormation>

@@ -19,14 +19,14 @@ export const summaryNavigation = [
 
 export const background = [
   {
-    course: "DEVinHouse - React + Node",
-    school: "SENAI-SC | ACATE",
-    years: "2021 - 2022",
-  },
-  {
     course: "Engenharia Civil",
     school: "Universidade Federal de Santa Catarina - UFSC",
     years: "2017 - Atualmente",
+  },
+  {
+    course: "DEVinHouse - React + Node",
+    school: "SENAI-SC | ACATE",
+    years: "2021 - 2022",
   },
   {
     course: "Técnico em Edfificações",

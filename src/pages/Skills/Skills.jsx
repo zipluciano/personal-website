@@ -6,7 +6,7 @@ const Skills = () => {
       <h1>Skills</h1>
       <SkillsContent>
         <ul>
-          <li>Python 100%</li>
+          <li>Python</li>
         </ul>
       </SkillsContent>
     </Wrapper>

@@ -30,6 +30,10 @@ export const ListFormation = styled.ul`
   list-style: none;
 `;
 
+export const Course = styled.li`
+  font-size: 2rem;
+`;
+
 export const School = styled.li`
   font-size: 1.6rem;
 `;
