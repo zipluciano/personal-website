@@ -34,3 +34,33 @@ export const background = [
     years: "2012 - 2016",
   },
 ];
+
+export const routes = [
+  { path: "/", index: 0 },
+  { path: "/home", index: 0 },
+  { path: "/summary", index: 1 },
+  { path: "/background", index: 2 },
+  { path: "/skills", index: 3 },
+  { path: "/contact", index: 4 },
+];
+
+export const skills = [
+  {
+    scope: "Front-end",
+    stack: [
+      "React",
+      "Redux",
+      "React Testing Library | Jest",
+      "Styled Components",
+      "Next.js",
+    ],
+  },
+  {
+    scope: "Back-end",
+    stack: ["Node", "Express", "Sequelize", "Postgres", "JWT"],
+  },
+  {
+    scope: "DevOps",
+    stack: ["Docker", "Kubernetes", "AWS", "Github Actions", "CI/CD"],
+  },
+];

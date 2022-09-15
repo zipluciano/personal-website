@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback, createContext } from "react";
 import { useNavigate } from "react-router-dom";
-import { routes } from "../../App";
+import { routes } from "../../utils/constants";
 import { Arrow } from "../../components";
 import { webImages } from "../../assets/utils";
 import { Slider, Content } from "./style";
